@@ -97,7 +97,7 @@ Pull Up Pose Estimation
 ![image](https://github.com/shambhavi1010/Gympose-Detection-Computer-Vision/blob/main/PullUp%20Correct%20Pose%20Classification.png)
 
 Push Up Pose Detection
-![download (1) (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/6a99207d-e75e-4949-a0c7-38e782d8f778)
+![download (1) (2)](https://github.com/shambhavi1010/Gympose-Detection-Computer-Vision/blob/main/Pushup.png)
 
 Squat  Pose Detection
 ![download (1) (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/6a99207d-e75e-4949-a0c7-38e782d8f778)
