@@ -102,7 +102,7 @@ Comparison Of Real & Generated Non- Epileptic Data
 
 
 
-![download (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/109196162/02dc7215-9cd1-456d-b2b3-93fab61160b8)
+![download (2)](https://github.com/shambhavi1010/Gympose-Detection-Computer-Vision/blob/main/Deployment%20CV.png)
 
 
 
