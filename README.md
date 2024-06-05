@@ -25,7 +25,7 @@ To run the code in this project, you will need the following dependencies instal
 4.Matplotlib: For data visualization
 5.Pandas: For data manipulation and preprocessing
 # Workflow 
-![Flowchart Building (1)]()
+![Flowchart Building (1)](https://github.com/shambhavi1010/Gympose-Detection-Computer-Vision/blob/main/CV%20Project%20Flow.png)
 
 
 
