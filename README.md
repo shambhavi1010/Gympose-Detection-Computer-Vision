@@ -93,13 +93,14 @@ This detailed training process helps in guiding the development and optimization
 Model accuracy for train and test data
 ![image](https://github.com/shambhavi1010/Gympose-Detection-Computer-Vision/blob/main/Model%20accuracy%20.png)
 
-Comparison Of Real & Generated Epileptic Data
-![image](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/7db704e6-f3bb-4be1-b4f8-861d6717bfa8)
+Pull Up Pose Estimation
+![image](https://github.com/shambhavi1010/Gympose-Detection-Computer-Vision/blob/main/PullUp%20Correct%20Pose%20Classification.png)
 
-Comparison Of Real & Generated Non- Epileptic Data
+Push Up Pose Detection
 ![download (1) (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/6a99207d-e75e-4949-a0c7-38e782d8f778)
 
-
+Squat  Pose Detection
+![download (1) (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/6a99207d-e75e-4949-a0c7-38e782d8f778)
 
 
 
