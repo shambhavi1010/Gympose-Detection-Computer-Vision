@@ -90,6 +90,8 @@ The training process involves several steps that are executed in each epoch:
 This detailed training process helps in guiding the development and optimization of the Pose estimation and correction model. 
 
 # Results
+Model accuracy for train and test data
+![image](https://github.com/shambhavi1010/Gympose-Detection-Computer-Vision/blob/main/Model%20accuracy%20.png)
 
 Comparison Of Real & Generated Epileptic Data
 ![image](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/7db704e6-f3bb-4be1-b4f8-861d6717bfa8)
