@@ -100,12 +100,7 @@ Comparison Of Real & Generated Non- Epileptic Data
 
 
 
-No. Of Epochs: 2000
-![image](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/37171f36-179e-41d2-b143-c8ba73ae4e36)
-![image](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/86b44362-68cf-4f07-bcec-9bc2781692dc)
 
-WaveGAN Result: 
-No. Of epochs = 5000
 
 ![download (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/109196162/02dc7215-9cd1-456d-b2b3-93fab61160b8)
 
@@ -113,14 +108,68 @@ No. Of epochs = 5000
 
 # Future Work
 
-Improved Model Architectures: Experiment with more advanced GAN architectures or modifications of existing architectures tailored specifically for EEG data synthesis. Explore techniques such as Wasserstein GANs (WGANs), Progressive GANs, or attention mechanisms to enhance the quality and diversity of synthetic EEG data.
-Multi-Modal Data Synthesis: Incorporate additional modalities, such as simultaneous EEG and fMRI data, to create multi-modal synthetic datasets. This could provide richer representations of brain activity and facilitate more comprehensive studies on epilepsy and related disorders. 
+3D Pose Estimation: Using 2D photos to extend the model
+to estimate 3D postures is an interesting avenue for further
+study. Although 2D posture estimate gives useful geographical
+information, 3D pose estimation can give much more detailed
+insights into how people move and interact with one another.
+Applications for 3D pose estimation can be found in fields
+including virtual reality, motion capture, and human motion
+analysis. But handling uncertainties in posture estimate and
+
+recovering depth information from 2D photos provide addi-
+tional hurdles.
+
+Robustness to Occlusions and Clutter: To make the model
+function better in real-world circumstances, it must be made
+more resilient to occlusions, cluttered backdrops, and changes
+in illumination. The accuracy of posture estimation methods
+
+can be considerably reduced by occlusions and clutter, par-
+ticularly in crowded areas or scenes with intricate backdrops.
+
+Future work can concentrate on creating methods to deal with
+occlusions, separate people from the background, and adjust
+to different lighting scenarios, all of which will increase the
+resilience and dependability of the model.
+Transfer Learning and Fine-Tuning: To adapt the model
+to new tasks or domains with little annotated data, transfer
+learning techniques can be investigated. Less labeled data can
+nevertheless yield better results for researchers if they use
+pre-trained models and refine them on target datasets. By
+addressing the problem of data scarcity in posture estimation
+tasks, transfer learning can improve the model’s ability to
+generalize to new surroundings, poses, or people.
 
 # Conclusion
 
-The implementation of WaveGAN for synthesizing EEG data has demonstrated significant potential in generating realistic EEG signals. This project not only serves as a proof of concept but also opens up numerous possibilities for further research and development in the field of EEG analysis and synthesis.
+Human Activity Recognition: Complex human actions or
+
+gestures can be recognized from video sequences by com-
+bining posture estimation and action recognition. The system
+
+is capable of identifying and categorizing a range of human
+actions, including running, walking, jumping, and interacting
+
+with objects, by examining temporal sequences of position es-
+timations. Applications for human activity recognition include
+
+healthcare, human-computer interaction, and surveillance. It
+makes it possible for intelligent systems to comprehend and
+react to human behavior.
+Pose Estimation in Unconstrained Environments: Another
+crucial area for further study is adapting the model to operate
+in unconstrained settings, including outside scenes. Additional
+
+difficulties in unconstrained situations include different back-
+grounds, illumination, and camera angles. To tackle these
+
+obstacles, resilient algorithms are needed that can adjust to
+various and fluctuating environmental circumstances, hence
+broadening the model’s relevance to a more extensive array
+of real-life situations.
 
 ### Achievements
-- **Successful Implementation**: The WaveGAN model was successfully adapted and implemented for the specific task of EEG data synthesis, showing good performance in generating believable EEG-like signals.
-- **Advancement in EEG Research**: By providing a method to generate synthetic EEG data, this project contributes to EEG research, offering a tool that can be used for various applications such as data augmentation, testing of EEG processing algorithms, and training of machine learning models without the need for extensive real data.
+- **Successful Pose Localized**: The MediaPipe model was successfully adapted and implemented for the specific task of detection landmarks and estimating the pose, showing good performance in correct detection of gym pose and providing feedback to the user to improve his/her posture.
+
 
